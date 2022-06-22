@@ -3,7 +3,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 data = {
-    "drinks":[
+    "Fruit":[
         {
             "name": "Grape", 
             "description": "Delicious grape fruit drink",
