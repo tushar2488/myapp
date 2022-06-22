@@ -6,14 +6,15 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Python Package
+name: Test Python Package Workflow
 
-on:
-  push:
-    branches: [master]
+on: [push]
+# on:
+#   push:
+#     branches: [master]
 
-permissions:
-  contents: read
+# permissions:
+#   contents: read
 
 jobs:
   deploy:
