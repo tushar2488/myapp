@@ -29,7 +29,12 @@ jobs:
         python-version: '3.x'
     - name: Check Branch and github action
       run: |
-        echo "${{github.event_name}}"
+        echo "Event Name : ${{github.event_name}}"
+        echo "Event Ref : ${{github.ref}}"
+        echo "Event Path : ${{github.event_path}}"
+        echo "Event Event : ${{github.event}}"
+        echo "Workpace : ${{github.workpace}}"
+        echo "Workflow : ${{github.workflow}}"
     # - name: Install dependencies
     #   run: |
     #     python -m pip install --upgrade pip
