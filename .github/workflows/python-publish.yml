@@ -8,13 +8,13 @@
 
 name: Test Python Package Workflow
 
-# on: [push]
-on:
-  push:
-    branches: 
-      - master
-      - dev
-      - stage
+on: [push]
+# on:
+#   push:
+#     branches: 
+#       - master
+#       - dev
+#       - stage
 
 # permissions:
 #   contents: read
